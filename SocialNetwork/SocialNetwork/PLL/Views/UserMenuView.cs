@@ -43,7 +43,7 @@ namespace SocialNetwork.PLL.Views
                         Program.userEditView.Show(user);
                         break;
                     case "3":
-                        Console.WriteLine("You can't");
+                        Program.friendMenuViews.Show(user);
                         break;
                     case "4":
                         Program.sendMessageView.Show(user);
